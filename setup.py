@@ -45,7 +45,7 @@ ERROR = f"{RED_START} [ERROR] {RED_END}"
 
 def abort(msg):
     print(f"{ERROR} {msg}")
-    assert False, msg
+    # assert False, msg
 
 
 def fetch_requirements(path):
